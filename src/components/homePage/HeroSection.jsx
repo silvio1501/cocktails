@@ -5,7 +5,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 const HeroSection = () => {
   return (
     <section className="relative">
-      <div className="h-[600px]">
+      <div className="h-[500px]">
         <img src={heroImage} alt="hero image" className="h-[100%] w-[100%]" />
         <div className=" absolute top-0 bottom-0 bg-[rgb(0,0,0,0.5)] w-[100%] h-[100%]">
           <div className="w-[80%] h-[100%] m-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
