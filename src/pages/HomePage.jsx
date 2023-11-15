@@ -1,5 +1,13 @@
+import HeroSection from "../components/homePage/HeroSection";
+import FormSection from "../components/homePage/FormSection";
+
 const HomePage = () => {
-  return <div>Home Page</div>;
+  return (
+    <div>
+      <HeroSection />
+      <FormSection />
+    </div>
+  );
 };
 
 export default HomePage;
