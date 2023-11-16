@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const baseUrl = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita`;
+const baseUrl = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=`;
 
 const initialState = {
   isOpen: false,
@@ -46,7 +46,7 @@ export const {
 } = drinkSlice.actions;
 
 export const fetchData =
-  (path = "") =>
+  (path = "negroni") =>
   async (dispatch) => {
     dispatch(startFetch());
     try {

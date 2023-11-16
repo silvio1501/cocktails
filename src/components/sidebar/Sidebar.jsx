@@ -12,7 +12,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="absolute top-0 w-[100%] h-[100%] bg-white py-4">
+    <div className="absolute z-10 top-0 w-[100%] h-[100%] bg-white py-4">
       <div className="w-[90%] m-auto">
         <Logo />
         <div className="mt-7 " onClick={handleCloseSidebar}>
