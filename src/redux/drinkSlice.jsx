@@ -7,6 +7,7 @@ const initialState = {
   data: [],
   isLoading: true,
   isError: false,
+  scroll: 0,
 };
 
 export const drinkSlice = createSlice({
@@ -34,6 +35,12 @@ export const drinkSlice = createSlice({
       state.isLoading = false;
       state.isError = true;
     },
+    saveScroll: (state, action) => {
+      state.scroll = action.payload;
+    },
+    deleteScroll: (state) => {
+      state.scroll = 0;
+    },
   },
 });
 
@@ -43,6 +50,8 @@ export const {
   startFetch,
   fetchCompleted,
   fetchError,
+  saveScroll,
+  deleteScroll,
 } = drinkSlice.actions;
 
 export const fetchData =

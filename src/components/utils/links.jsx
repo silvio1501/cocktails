@@ -14,14 +14,14 @@ const links = [
     text: "Home",
     icon: <AiFillHome className="text-2xl text-orange-dark " />,
   },
-  {
-    url: "/about",
-    text: "About",
-    icon: <RiTeamFill className="text-2xl text-orange-dark" />,
-  },
+  // {
+  //   url: "/about",
+  //   text: "Chi siamo",
+  //   icon: <RiTeamFill className="text-2xl text-orange-dark" />,
+  // },
   {
     url: "/contatti",
-    text: "Chi siamo",
+    text: "Contattaci",
     icon: <AiFillMessage className="text-2xl text-orange-dark" />,
   },
 ];
