@@ -3,7 +3,9 @@ import { useForm, ValidationError } from "@formspree/react";
 const Form = () => {
   const [state, handleSubmit] = useForm("maygzadj");
   if (state.succeeded) {
-    return <p className="font-3xl text-white">Grazie per averci contattato</p>;
+    return <div className="h-[43vh] text-center">
+    <p className="text-4xl font-extrabold text-white">Grazie per averci contattato</p>
+    </div>
   }
   return (
     <div className="md:w-[60%] m-auto">
