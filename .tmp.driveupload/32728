@@ -1,8 +1,0 @@
-0000000000000000000000000000000000000000 dd1ea0b44966da167d04295a56a1908d699cd89d silvio1501 <silvioferrentino@libero.it> 1700034613 +0100	commit (initial): addedd project on gitHub
-dd1ea0b44966da167d04295a56a1908d699cd89d c8b80d7652be3c084991cea74c927c14fa660e1d silvio1501 <silvioferrentino@libero.it> 1700035817 +0100	pull --ff --recurse-submodules --progress origin: Fast-forward
-c8b80d7652be3c084991cea74c927c14fa660e1d 77ebd35251b8c060513dd2bfc723c616c2eb451d silvio1501 <silvioferrentino@libero.it> 1700036034 +0100	commit: first committ
-77ebd35251b8c060513dd2bfc723c616c2eb451d 90f9b30312295804bf9c7f963601c05e191bf941 silvio1501 <silvioferrentino@libero.it> 1700042984 +0100	commit: 15/11/22
-90f9b30312295804bf9c7f963601c05e191bf941 7c5de7da241ef04bb05ab295ada484b7eacb2ef4 silvio1501 <silvioferrentino@libero.it> 1700043249 +0100	commit: 15/11/23
-7c5de7da241ef04bb05ab295ada484b7eacb2ef4 bdf67412919d488f5d495e318c16785a59d270bf silvio1501 <silvioferrentino@libero.it> 1700043492 +0100	pull --ff --recurse-submodules --progress origin: Fast-forward
-bdf67412919d488f5d495e318c16785a59d270bf d61341d5ae30275bfc9ccdb4616750d649e0479a silvio1501 <silvioferrentino@libero.it> 1700046533 +0100	commit: 15/11/2023
-d61341d5ae30275bfc9ccdb4616750d649e0479a 955d3164bfcd8846a72acd6a078844942b06c34c silvio1501 <silvioferrentino@libero.it> 1700132511 +0100	commit: 16/11/2023
